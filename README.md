@@ -18,13 +18,13 @@ Visit [website](http://Gbreigns.pythonanywhere.com/)
 Clone the repository
 
 ```console
-git clone https://github.com/gbreigns/GBR-Student-Management-API.git
+git clone https://github.com/gbreigns/GBR-School-Student-Management-API.git
 ```
 
 Change directory to the cloned folder
 
 ```console
-cd Student-Management-System
+cd GBR-School-Student-Management-API
 ```
 
 Install necessary dependencies to run the project
