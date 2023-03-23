@@ -6,6 +6,13 @@ This Python Flask-RESTX-based API for managing students was developed by Gbreign
 
 A Student Management API built with Python (Flask)
 
+### Built With:
+
+![Python][python]
+![Flask][flask]
+![SQLite][sqlite]
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
@@ -42,6 +49,27 @@ flask db migrate -m "your description"
 flask db upgrade
 ```
 Run application
+
+```console
+python runserver.py
+```
+
+### To create your database locally.
+
+```console
+flask shell     # press enter
+db              # press enter
+User            # press enter
+Admin           # press enter
+Student         # press enter
+Course          # press enter
+StudentCourse   # press enter
+Score           # press enter
+db.create_all() # press enter
+exit()          # press enter
+```
+
+### Finally, To run the application.
 
 ```console
 python runserver.py
